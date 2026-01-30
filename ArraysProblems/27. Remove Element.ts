@@ -46,8 +46,6 @@ Constraints:
 0 <= val <= 100*/
 
 
-let nums: number[] = [3,2,2,3]; 
-let val = 3;
 
 function removeElement(nums: number[], val: number): number {
 
@@ -63,4 +61,4 @@ let k = 0;
     return k;
 };
 
-console.log(removeElement(nums,3))
+console.log(removeElement([3,2,2,3],3))
